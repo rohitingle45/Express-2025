@@ -17,6 +17,7 @@ app.get('/users',(req,res)=>{
 })
 
 app.get('/error',(req,res)=>{
+    
     res.send1("<h1>Error Page</h1>");
 })
 
