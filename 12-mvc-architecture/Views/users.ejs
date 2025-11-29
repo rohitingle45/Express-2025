@@ -6,8 +6,12 @@
     <title>User Page</title>
 </head>
 <body>
-       <h1>Name is : <%= name %></h1>
-       <h1>Age is : <%= age %> </h1>
-       <h1>City is : <%= city %></h1>
+       <h1>Users Page</h1>
+       <u>
+          <% for(let i=0; i<users.length; i++) { %>
+          <li><%= users[i] %></li>   
+          <% } %>  
+       </u>
+       
 </body>
 </html>
