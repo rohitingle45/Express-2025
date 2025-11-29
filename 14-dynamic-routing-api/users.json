@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"Rohit Ingle",
+        "city":"Akola"
+    },
+    {
+        "id":2,
+        "name":"Divya Ingle",
+        "city":"Valsad"
+    },
+    {
+        "id":3,
+        "name":"Yogesh Ingle",
+        "city":"Akola"
+    }
+]
