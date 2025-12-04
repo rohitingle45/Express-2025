@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Page</title>
+</head>
+<body>
+      <h1>Displaying mongodb data on ui</h1>
+      <table border="1">
+          <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>City</td>
+          </tr>
+          <% dbResult.forEach((member)=>{ %>
+              <tr>
+            <td><%= member.name %></td>
+            <td><%= member.age %></td>
+            <td><%= member.city %></td>
+          </tr>
+         <% }) %>
+      </table>
+</body>
+</html>
