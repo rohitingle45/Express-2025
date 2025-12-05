@@ -10,10 +10,12 @@ async function dbConnection() {
         age:Number,
         city:String,
     });
+
     const familyModel = mongoose.model('family', schema, 'family');
     const dbResult = await familyModel.find();
     console.log(dbResult); 
 }
+
 
 dbConnection();
 
